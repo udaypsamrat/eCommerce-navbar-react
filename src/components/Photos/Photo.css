@@ -1,0 +1,27 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.p-i {
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  /* background-color: gainsboro; */
+  margin: 10px;
+  margin-bottom: 0;
+  width: 100wh;
+}
+
+.p-i img {
+  justify-content: space-between;
+  margin: 15px 20px;
+  width: 380px;
+  height: 400px;
+}
+
+@media (max-width: 720px) {
+  .p-i img {
+     width: 90%;
+     height: 100%;
+  }
+}

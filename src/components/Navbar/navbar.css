@@ -1,1 +1,25 @@
+.navbar {
+  background-color: #005756;
+}
+
+.container-fluid a {
+  font-size: 25px;
+  padding: 20px;
+  font-style: unset;
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+.navbar-nav li a {
+  margin: 0 12px;
+}
+
+
+@media (max-width:540px) {
+  .container-fluid a{
+    margin-left: -15px;
+  }
+}
  

@@ -1,0 +1,29 @@
+.footer {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #005756;
+  width: 100%;
+  padding: 20px;
+}
+.footer h6 {
+  padding: 15px;
+  color: #fff;
+}
+
+.f {
+  padding: 20px;
+}
+.footer span {
+  color: #fff;
+  font-size: 11px;
+}
+
+.f a {
+  font-size: 30px;
+  margin: 20px;
+}
+
+.f a i {
+  color: #fff;
+}

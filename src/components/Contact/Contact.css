@@ -1,0 +1,87 @@
+.c {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: gainsboro;
+  padding: 10px;
+  margin: 10px;
+  width: 100wh;
+}
+.c img {
+  margin: 20px;
+  width: 550px;
+}
+
+.c-info {
+  display: flex;
+  justify-content: space-around;
+}
+.c-left {
+  flex-direction: column;
+  justify-content: space-between;
+}
+.c-left a {
+  text-decoration: none;
+}
+
+.insta {
+  font-size: 25px;
+  margin: 15px;
+}
+.fa-instagram {
+  font-size: 25px;
+  color: rgb(206, 70, 70);
+}
+
+.fb {
+  font-size: 25px;
+  margin: 15px;
+}
+
+.c-right {
+  margin: 10px;
+}
+.fa-envelope {
+  font-size: 25px;
+  color: #34a853;
+  margin: 5px;
+}
+.c-right samp {
+  margin: 10px;
+  font-size: 18px;
+  color: rgb(38, 41, 54);
+}
+.c h3 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  color: green;
+}
+.row{
+  text-align: justify;
+}
+
+.c form {
+  margin: 0;
+}
+
+.col-md-6 textarea {
+  height: 250px;
+}
+.col-12 {
+  text-align: center;
+}
+
+.col-12 button {
+  border-radius: 15px;
+}
+
+@media (max-width: 720px) {
+  .c-info {
+    flex-direction: column;
+  }
+  .c img {
+    width: 90%;
+  }
+}
